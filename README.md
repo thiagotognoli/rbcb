@@ -13,13 +13,14 @@ from [Brazilian Centra Bank](https://www.bcb.gov.br) web site.
 You can download it from CRAN
 
 ```r
-install.packages('rbcb')
+install.packages('rbcb') #not working
 ```
 
 or use devtools:
 
 ```r
-devtools::install_github('wilsonfreitas/rbcb')
+install.packages('devtools')
+devtools::install_github('thiagotognoli/rbcb')
 ```
 
 ## Features
